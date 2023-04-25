@@ -10,10 +10,10 @@ import urllib
 import urllib.request
 import streamlit as st
 
-df = pd.read_csv('E:\\susmi\\Documents\\dataset.csv')
+df = pd.read_csv('dataset.csv')
 #print(df.head())
 #df.describe()
-df1 = pd.read_csv('E:\\susmi\\Documents\\Symptom-severity.csv')
+df1 = pd.read_csv('Symptom-severity.csv')
 #print(df1.head())
 df.isna().sum()
 df.isnull().sum()
